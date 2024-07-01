@@ -1,0 +1,134 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for centering content */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+/* Styling for header elements */
+header a, header h1 {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Styling for navigation menu */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header and subheader styling */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Flexbox styling for images */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.image-item {
+    position: relative;
+    max-width: 45%;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image-item img {
+    width: 100%;
+    display: block;
+}
+
+.image-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Styling for chant items */
+.chant-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.chant-item img {
+    max-width: 150px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Styling for chant details */
+.chant-details {
+    flex: 1;
+}
+
+.chant-details h2 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.chant-details a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.chant-details a:hover {
+    text-decoration: underline;
+}

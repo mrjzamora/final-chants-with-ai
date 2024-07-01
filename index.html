@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Soccer Ai chants</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chants.html">Chants</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Featured Images</h2>
+        <div class="images">
+            <div class="image-item" data-chant="chants/Chant ¡Vamos, Colombia!.txt">
+                <img src="images/Colombiaandcostarica .png" alt="Colombia vs Costa Rica">
+                <div class="image-title">Colombia vs Costa Rica<br>Final Score: 3-0</div>
+            </div>
+            <div class="image-item" data-chant="chants/¡Colombia, Vamos a Ganar! (Vallenat.txt">
+                <img src="images/colombia vs paraguay.jpg" alt="Colombia vs Paraguay">
+                <div class="image-title">Colombia vs Paraguay<br>Final Score: 2-1</div>
+            </div>
+            <div class="image-item" data-chant="chants/USA, Let's Go!.txt">
+                <img src="images/usa.jpg" alt="USA">
+                <div class="image-title">USA vs Bolivia<br>Final Score: 2-0</div>
+            </div>
+            <div class="image-item" data-chant="chants/¡Vamos, República Dominicana!.txt">
+                <img src="images/dominican republic.jpg" alt="Dominican Republic">
+                <div class="image-title">Dominican Republic vs British Virgin Islands<br>Final Score: 4-0</div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for displaying chant text -->
+    <div id="chantModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <pre id="chantText"></pre>
+        </div>
+    </div>
+    <script src="script/app.js"></script>
+</body>
+</html>
